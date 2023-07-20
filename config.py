@@ -81,9 +81,9 @@ PING_IMG_URL = getenv(
     "PIC_START",
 )
 
-PLAYLIST_IMG_URL = "https://i.top4top.io/p_2729n1wub1.jpg"
+PLAYLIST_IMG_URL = ""
 
-GLOBAL_IMG_URL = "https://i.top4top.io/p_2729n1wub1.jpg"
+GLOBAL_IMG_URL = ""
 
 STATS_IMG_URL = getenv("https://telegra.ph/file/85f232e0613f9403c4560.jpg")
 
@@ -128,7 +128,7 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = getenv("https://telegra.ph/file/85f232e0613f9403c4560.jpg")
+            PING_IMG_URL = getenv("https://telegra.ph/file/86015c4f557a08b2836c5.jpg")
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
